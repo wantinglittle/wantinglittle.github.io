@@ -74,6 +74,15 @@ a:hover {
 
 @media (max-width: 600px) {
     .container {
-        margin: 10px 200px;
+        margin: 10px 10px;
+        min-width: 0;
+    }
+    .left-col, .right-col, .middle-col {
+        padding-left: 0;
+        max-width: 350px;
+    }
+    a:hover {
+        font-size: 1.9rem;
+        ;
     }
 }
